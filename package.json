@@ -1,0 +1,23 @@
+{
+  "name": "proyecto-ml",
+  "version": "1.0.0",
+  "description": "Mercado Liebre",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VeroVelazco/Mercado-Liebre-Proyect.git"
+  },
+  "keywords": [],
+  "author": "Verónica Velazco",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VeroVelazco/Mercado-Liebre-Proyect/issues"
+  },
+  "homepage": "https://github.com/VeroVelazco/Mercado-Liebre-Proyect#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}
