@@ -74,7 +74,7 @@
 }
 
 .home__header__banner {
-    margin: 0;
+    
     width: 100%;
 }
 
@@ -84,7 +84,7 @@
 
 /* main */
 .home__main {
-    margin: 5px;
+    
     background-color: var(--colorGrisClaro);
 }
 
