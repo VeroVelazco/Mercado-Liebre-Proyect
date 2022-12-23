@@ -70,11 +70,10 @@
     padding: 10px;
     margin: 15px 130px;
     border: transparent;
-    
+
 }
 
 .home__header__banner {
-    
     width: 100%;
 }
 
@@ -84,7 +83,7 @@
 
 /* main */
 .home__main {
-    
+
     background-color: var(--colorGrisClaro);
 }
 
@@ -109,7 +108,7 @@
     width: 100%;
 }
 
-.home__main__section article i {
+.home__main__truck {
     display: flex;
     font-size: 16px;
     padding: 5px;
@@ -121,6 +120,21 @@
     position: absolute;
     right: 20px;
     top: -15px;
+    transition: all 2s;
+}
+
+.home__main__truck:hover{
+    transform: rotate(-90deg);
+}
+
+.home__main__section--products{
+    box-shadow: none;
+    cursor: pointer;
+}
+
+.home__main__section--products:hover{
+    opacity: 0.8;
+    box-shadow: 4px 4px rgb(186, 185, 185);
 }
 
 .home__main__section--products figure img {
@@ -137,12 +151,18 @@
 }
 
 .home__main__section--descrpicion h4 {
-    display: none;
+    transition: all 0.4s;
+    opacity: 0;
+    font-size: medium;
 }
 
 .home__main__section--descrpicion .porcentaje {
     color: var(--colorVerde);
     font-size: 16px;
+}
+.home_main__section--products:hover 
+.home_main__section--products_descripcion h4:hover  {
+       opacity: 1;
 }
 
 
@@ -184,9 +204,10 @@
 
     /* home */
 
-    .home__header--header{
+    .home__header--header {
         gap: 10px;
     }
+
     .home__header--logo {
         width: 30%;
     }
@@ -219,17 +240,17 @@
         width: 100%;
         margin-top: 10px;
         font-size: 12px;
-    }  
+    }
 
-    .home__header--nav ul{
+    .home__header--nav ul {
         display: flex;
         gap: 10px;
     }
-    
+
     .home__header--burger-menu {
-       display: none;
+        display: none;
     }
-    
+
     /* main */
 
     .home__main__section {
@@ -245,25 +266,25 @@
     }
 
     .home__main__section--titulo h3 {
-        margin: 20px  60px;
+        margin: 20px 60px;
         font-size: 24px;
     }
-    
-    .home__main__section--descrpicion p{
+
+    .home__main__section--descrpicion p {
         display: inline-flex;
-        
+
     }
 
-    .home__main__section--descrpicion .porcentaje{
+    .home__main__section--descrpicion .porcentaje {
         display: inline-flex;
-        
+
     }
 
     .home__main__section--descrpicion h4 {
-        display: flex;
+
         color: var(--colorGrisOscuro);
     }
- 
+
 }
 
 
@@ -271,6 +292,41 @@
     .home__main__section--products {
         width: 20%;
     }
-
+    .home__footer {
+        text-align: center;
+        background-color: #fff;
+        
+    }
+    .home__footer__section{
+        display: flex ;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    .home__footer__section div {
+        width: 100%;
+      
+    }
+    
+    .home__footer__section i {
+        color: var(--colorCeleste);
+        font-size: 2em;
+      
+    }
+    
+    .home__footer__section h4 {
+        text-align: center;
+    }
+    
+    .home__footer__section p {
+        font-size: 12px;
+        color: var(--colorGrisOscuro);
+    }
+    
+    .home__footer__section--copyright {
+       
+        font-size: 10px;
+        text-align: left;
+    }
+    
 
 }

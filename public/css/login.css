@@ -40,6 +40,9 @@
     border: none;
 
 }
+.login__main--button button:hover {
+    background-color: #0022AA;
+}
 
 .login__main--button a{
     color: white;
